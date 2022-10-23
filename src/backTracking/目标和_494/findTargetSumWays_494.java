@@ -12,7 +12,6 @@ n种添加符号的方法，对应 2^n种不同的表达式。当 n个元素都�
 
 public class findTargetSumWays_494 {
     private static int count = 0;
-    private static int ans = 0;
 
     public static void main(String[] args) {
         int [] arr = new int[]{1, 1, 1, 1, 1};
