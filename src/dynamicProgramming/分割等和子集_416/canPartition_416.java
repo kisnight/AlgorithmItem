@@ -1,4 +1,4 @@
-package slidingWindow.分割等和子集_416;
+package dynamicProgramming.分割等和子集_416;
 
 public class canPartition_416 {
 
