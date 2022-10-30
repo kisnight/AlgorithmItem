@@ -2,9 +2,7 @@ package study.demo;
 
 import org.junit.Test;
 
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.TreeMap;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class basicTest {
@@ -58,6 +56,14 @@ public class basicTest {
         System.out.println(map);
 
         StringBuffer sb = new StringBuffer();
+
+        System.out.println("".equals("234"));
+        String s = "23";
+        String c = "23";
+        System.out.println(s.hashCode());
+        System.out.println(c.hashCode());
+
+        Vector<String> ve = new Vector<>();
 
     }
 
