@@ -6,10 +6,10 @@ package array.最接近的三数之和_16;
  */
 import java.util.Arrays;
 
-public class threeSumClosest_16 {
+public class threeSumClosest_16_repeat {
 
     public static void main(String[] args) {
-        threeSumClosest_16 a = new threeSumClosest_16();
+        threeSumClosest_16_repeat a = new threeSumClosest_16_repeat();
         int [] arry = {-1,2,1,-4};
         System.out.println(a.threeSumClosest(arry, 1));
     }
