@@ -6,14 +6,6 @@ package LinkedList.环形链表_141;
 1、可以使用快慢指针法，分别定义fast和slow指针，从头结点出发，fast指针每次移动两个节点，slow指针每次移动一个节点，
 2、如果 fast 和 slow指针在途中相遇 ，说明这个链表有环。
  */
-//class ListNode {
-//    int val;
-//    ListNode next;
-//    ListNode(int x) {
-//    val = x;
-//    next = null;
-//    }
-//}
 
 class ListNode {
     int val;
