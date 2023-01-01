@@ -1,4 +1,4 @@
-package LinkedList.删除链表的倒数第N个结点_19;
+package LinkedList.删除链表的倒数第N个结点_19_repeat;
 
 import java.util.ArrayList;
 import java.util.List;

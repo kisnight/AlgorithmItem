@@ -1,4 +1,4 @@
-package characterString.无重复字符的最长子串_3;
+package characterString.无重复字符的最长子串_3_repeat;
 
 import java.util.HashSet;
 import java.util.Set;

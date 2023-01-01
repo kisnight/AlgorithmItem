@@ -1,4 +1,4 @@
-package dynamicProgramming.回文子串_647;
+package dynamicProgramming.回文子串_647_repeat;
 
 import java.util.Arrays;
 

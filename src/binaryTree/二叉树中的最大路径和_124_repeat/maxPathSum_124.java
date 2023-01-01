@@ -1,4 +1,4 @@
-package binaryTree.二叉树中的最大路径和_124;
+package binaryTree.二叉树中的最大路径和_124_repeat;
 
 class TreeNode {
     int val;
@@ -19,7 +19,7 @@ class TreeNode {
     3、因此所有可能的路径情况：
     【左中右】 b+a+c
     【左】b+a
-    【右】c+c
+    【右】a+c
  */
 public class maxPathSum_124 {
     // 将最大路径和设置为全局变量，便于每次递归的时候可以进行更新

@@ -1,4 +1,4 @@
-package backTracking.目标和_494;
+package backTracking.目标和_494_repeat;
 
 /*
 方案思路：

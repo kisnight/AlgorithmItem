@@ -1,15 +1,14 @@
-package array.最长连续序列_128;
+package array.最长连续序列_128_repeat;
 
 import java.util.*;
-
 /*
     题目理解：数字连续序列表示[1, 2, 3, 4]这种数值的连续，不在乎在数组位置上是否连续
  */
-public class longestConsecutive_128_repeat {
+public class longestConsecutive_128 {
 
     public static void main(String[] args) {
-        longestConsecutive_128_repeat a = new longestConsecutive_128_repeat();
-        int [] arry = {4,0,-4,-2,2,5,2,0,-8,-8,-8,-8,-1,7,4,5,5,-4,6,6,-3};
+        longestConsecutive_128 a = new longestConsecutive_128();
+        int [] arry = {9,1,4,7,3,-1,0,5,8,-1,6};
         System.out.println(a.longestConsecutive(arry));
     }
 
