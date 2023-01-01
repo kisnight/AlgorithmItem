@@ -43,15 +43,17 @@ public class basicTest {
 
     @Test
     public void treeMapTest() {
-        TreeMap<String, String> treeMap = new TreeMap<>();
+        TreeMap<Integer, String> treeMap = new TreeMap<>();
         HashMap<String, String> map = new HashMap<>();
-        treeMap.put("bob", "books");
-        treeMap.put("c", "concurrent");
-        treeMap.put("a", "a lock");
+        treeMap.put(2, "books");
+        treeMap.put(1, "concurrent");
+        treeMap.put(3, "a lock");
 
         map.put("bob", "books");
         map.put("c", "concurrent");
         map.put("a", "a lock");
+        List<Integer> list = new ArrayList<>(treeMap.keySet());
+        System.out.println(list);
         System.out.println(treeMap);
         System.out.println(map);
 
@@ -63,10 +65,27 @@ public class basicTest {
         System.out.println(s.hashCode());
         System.out.println(c.hashCode());
 
-        Vector<String> ve = new Vector<>();
-
+        List<Integer> asa = Arrays.asList(1, 3, 8, 12, 15, 18, 20, 25);
+        System.out.println("中间数据：" + getRangeOfValue(9, asa));
     }
 
+    private List<Integer> getRangeOfValue(Integer val, List<Integer> keyList) {
+        List<Integer> valRange = new ArrayList<>();
+        int low = 0;
+        int high = keyList.size() -1;
+        while(high != low + 1) {
+            int mid = (low + high) / 2;
+            if (keyList.get(mid) > val) {
+                high = mid;
+            }else {
+                low = mid;
+            }
+        }
+
+        valRange.add(low);
+        valRange.add(high);
+        return valRange;
+    }
 
 }
 

@@ -61,7 +61,7 @@ public class flatten_114 {
     }
 
     public static LinkedList<TreeNode> getAllNode(TreeNode root){
-        LinkedList<TreeNode> tempNodes =new LinkedList<TreeNode>();
+        LinkedList<TreeNode> tempNodes = new LinkedList<TreeNode>();
         if(root==null){
             return tempNodes;
         }
