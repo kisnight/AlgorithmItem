@@ -1,5 +1,6 @@
 package study.demo.locktest;
 
+import java.util.HashMap;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -18,7 +19,7 @@ public class TryLockTest {
 			lock.unlock();
 		}*/
 
-
+        
         if(lock.tryLock()){
             try {
                 System.out.println("线程名"+thread.getName() + "获得了锁");

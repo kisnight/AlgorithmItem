@@ -15,16 +15,6 @@ public class MyTest01 {
         //test1();
         test2();
     }
-    //练习newCachedThreadPool方法
-    private static void test1() {
-        //1:使用工厂类获取线程池对象
-        ExecutorService es = Executors.newCachedThreadPool();
-        //2:提交任务;
-        for (int i = 1; i <=10 ; i++) {
-            es.submit(new MyRunnable(i));
-        }
-    }
-
     private static void test2() {
         //1:使用工厂类获取线程池对象
         ExecutorService es = Executors.newCachedThreadPool(new ThreadFactory() {
