@@ -10,7 +10,10 @@ public class LongestConsecutive {
         if(nums.length == 0) {
             return 0;
         }
-
+        String ss = "ffd";
+        char[] charArr = ss.toCharArray();
+        char ch = ss.charAt(0);
+        ss.indexOf('e');
         HashSet<Integer> set = new HashSet<>();
         for (Integer item : set) {
             set.add(item);
